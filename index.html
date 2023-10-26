@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Tabauada</title>
+</head>
+<body>
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+    <section class="content" style="display: grid; justify-content: center; align-items: center; padding-top: 100px;">
+        <div class="inp1">
+            <span id="icon-tabuada"></span>
+            <input type="text" name="txt-tab" id="txt-tab" placeholder="Tabuada desejada..." style="width: 250px; height: 40px;" > 
+        </div>
+        <div class="inp2">
+            <span id="icon-vezes"></span>
+            <input type="text" name="txt-qtd-tab" id="txt-qtd-tab" placeholder="Quantidade de vezes..." style="width: 250px; margin-top: 10px;margin-bottom: 5px; height: 40px;">
+        </div>
+        <div class="btn-calc">
+            <button onclick="calcularTabuada()" id="btn-calc" style="width: 258px; height: 40px;">CALCULAR</button>
+        </div>
+    </section>
+    <section class="resultado" style=" display: grid; justify-content: center; align-items: center;  ">
+        <p class="p-resultado"></p>
+    </section>
+    <footer>
+        
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
